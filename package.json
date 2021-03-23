@@ -1,0 +1,20 @@
+{
+  "name": "find-usages-bug",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "",
+  "main": "./lib",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "dependencies": {
+    "mobx": "^6.1.8",
+    "mobx-state-tree": "^5.0.1"
+  }
+}
