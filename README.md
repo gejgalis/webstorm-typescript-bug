@@ -10,6 +10,7 @@ Steps to reproduce:
 3. Set cursor within `read()` and press `Alt + Ctrl + F7` (Find Usages)
 
 Actual: shows invalid usage in `usage.ts` file
+
 Expected: shouldn't find any usages (this store is not even imported anywhere)
 
 ##NOTICE
